@@ -1,0 +1,35 @@
+{
+  "name": "waladjs",
+  "description": "WaladJS is a front-end and back-end responsive framework supports mobile based on Google's Material Design Standards & Bootstrap coded in PHP/MySQL.",
+  "keywords": [
+  	"css",
+  	"js",
+  	"mobile-first",
+  	"responsive",
+  	"front-end",
+  	"framework",
+  	"web"
+  ],
+  "version": "0.0.5",
+  "homepage": "http://github.com/WaladJS/",
+  "authors": [
+    "JMD Revolution"
+  ],
+  "main": [
+    "assets/dist/css/waladjs.css",
+    "assets/dist/js/waladjs.js"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "archive",
+	"assets",
+	".gitignore",
+	".npmignore",
+    "templates",
+	"components/*/snippets/**"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.0.0",
+    "jquery":"^1.9.0"
+  }
+}

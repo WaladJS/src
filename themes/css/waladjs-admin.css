@@ -1,0 +1,57 @@
+ 
+body, html{ height:100%;}
+.pmd-content{ min-height:100%;}
+.dashboard .card-header.no-margin { margin:0;}
+.dashboard .pmd-card{ margin-bottom:30px;}
+.caret { border-left:5px solid rgba(0, 0, 0, 0); border-right:4px solid rgba(0, 0, 0, 0); border-top:5px solid;}
+.pmd-navbar.navbar .btn.pmd-btn-fab:hover, .pmd-navbar.navbar .btn.pmd-btn-fab:focus, .pmd-navbar.navbar .btn.pmd-btn-fab.focus { color: #fff;}
+
+/*========================== header css ===========================*/
+.navbar-inverse{ background-color:#4285f4; border-color:transparent;}
+.navbar-inverse .navbar-brand svg{ display:inline-block; float:left; vertical-align:top;}
+@media (max-width: 767px) {
+	.navbar-brand > svg{ height:40px; width:auto;}
+}
+	
+/*============================= notification =========================*/
+.notification .pmd-badge[data-badge]::after{ background-color:#fff; color:#333;}
+.notification .pmd-dropdown-menu-container { top:65px;}
+.notification.open .pmd-dropdown-menu-container:after{ border-bottom: 6px solid #ffffff; border-left: 6px solid rgba(0, 0, 0, 0);border-right: 6px solid rgba(0, 0, 0, 0); content: ""; display: inline-block; right: 24px; position: absolute; top: -6px;}
+.notification .notification-blank { padding:120px 16px; text-align:center; opacity:0.7;}
+nav .notification .notification-blank span.dic { display:block; font-size:58px; margin-bottom:10px; opacity:0.3;}
+.notification .dropdown-menu { padding:0; width:320px; position:relative;}
+.notification a.dropdown-toggle{ margin-top:25px;}
+.notification a{ position:relative; overflow:visible;}
+.notification .list-group-item { background:#F9F9F9; line-height:15px; cursor:pointer; float:left; width:100%;}
+.notification .list-group-item { padding:0; border-top:1px solid #ebebeb; margin:0;}
+.notification .list-group-item a { border:0;}
+.notification .list-group-item .avatar-list-img40x40 { margin-top:0;}
+.notification .list-group-item .list-group-item-text { line-height:1.4; display:block; white-space:normal; font-size:14px;}
+.notification .list-group-item .list-group-item-date { color:rgba(0, 0, 0, 0.44); font-size:13px;  display:block;}
+.notification .list-group-item > a { padding:16px; right:0; margin-top:0;}
+.notification .list-group-item.unread { background:#fff;}
+.notification .list-group-item:hover { background:#F5F5F5;}
+.pmd-navbar .navbar-nav > li.notification svg { margin-right:0;}
+.notification .nav-dropdown h3 a { text-decoration:underline; margin-top:0;}
+.notification .nav-dropdown h3 a:hover { text-decoration:none;}
+.avatar-list-img40x40{width:40px;height:40px;border-radius:50%;display:table-cell;overflow:hidden;vertical-align:middle;position:relative; text-align:center; }
+.avatar-list-img40x40 .dic { vertical-align:middle;}
+.avatar-list-img40x40 {width:40px;height:40px;border-radius:50%;display:inline-block;overflow:hidden;vertical-align:middle;position:relative; line-height: 38px;} 
+.avatar-list-img40x40 img {max-height: 40px; width: auto;  height: auto; max-width: 40px; display:inline-block;}
+.avatar-list-img140x140{width:140px;height:140px; border-radius:50%;display:inline-block;overflow:hidden;vertical-align:middle;position:relative; text-align:center; line-height:140px; margin:0 auto;}
+.avatar-list-img140x140::after {border-radius: 50%;box-shadow: 0 0 2px rgba(0, 0, 0, 0.3) inset;content: "";height: 140px;left: 0;position: absolute;top: 0;width: 140px;z-index: 100;}
+.avatar-list-img140x140 img {max-height: 140px; width: auto;  height: auto; max-width: 140px; display:inline-block;}
+.notification .pmd-list-avatar{ display:inline;}
+@media (max-width: 767px) {
+.notification a.dropdown-toggle{margin-top: 18px;}	
+}
+
+/*============================= content area =========================*/
+.pmd-content{padding-top: 63px; padding-bottom:90px; padding-left:0; padding-right:0;}
+.pmd-content .container-fluid { max-width:1590px;}
+@media (max-width: 767px) {
+.pmd-content{padding-top: 63px; padding-left:0; padding-bottom:210px; padding-right:0;}
+}
+
+/*======================== Tab page======================*/
+.dropdown-tab .pmd-tabs .nav .open > a, .dropdown-tab .pmd-tabs .nav .open > a:hover, .dropdown-tab .pmd-tabs .nav .open > a:focus { background-color: transparent; border-color: transparent; opacity: 1;}
