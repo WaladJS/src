@@ -1,6 +1,6 @@
 <p align="center">
   <a href="http://github.com/WaladJS/">
-    <img src="http://github.com/WaladJS/assets/landing-page/images/waladjs-bg.png" />
+    <img src="http://github.com/WaladJS/themes/images/waladjs-bg.png" />
   </a>
 
   <h3 align="center">WaladJS</h3>
