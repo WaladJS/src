@@ -1,6 +1,6 @@
 <p align="center">
   <a href="http://github.com/WaladJS/">
-    <img src="http://github.com/WaladJS/src/themes/images/logo-icon.png" width="300" />
+    <img src="http://github.com/WaladJS/templates/images/waladjs-bg.jpg" />
   </a>
 
   <h3 align="center">WaladJS</h3>
@@ -62,7 +62,7 @@ Using third party components:
 
 ## WaladJS Guidelines
 
-Follow our [Guidelines](http://github.com/WaladJS/docs/index.php) and get familiar with the basic setup and structure.
+Follow our [Guidelines](http://github.com/WaladJS/docs/) and get familiar with the basic setup and structure.
 
 
 ## What's included
@@ -71,20 +71,21 @@ Follow our [Guidelines](http://github.com/WaladJS/docs/index.php) and get famili
 
 ```
 WaladJS/
-├── css/
-│    ├── bootstrap.css
-│    ├── bootstrap.min.css
-│    ├── waladjs.css
-│    ├── waladjs.min.css
-├── js/
-│    ├── jquery.min.js
-│    ├── bootstrap.js
-│    ├── bootstrap.min.js
-│    ├── waladjs.js
-│    ├── waladjs.min.js
-├── fonts/
-│    ├── roboto/
-└── index.html
+├    assets/
+│    	├── css/
+│    	│    ├── bootstrap.css
+│    	│    ├── bootstrap.min.css
+│    	│    ├── waladjs.css
+├    	│    ├── waladjs.min.css
+│    	├── js/
+│    	│    ├── jquery.min.js
+│    	│    ├── bootstrap.js
+│    	│    ├── bootstrap.min.js
+│    	│    ├── waladjs.js
+├    	│    ├── waladjs.min.js
+│    	├── fonts/
+└    	│    ├── roboto/
+		│	 └── index.html
 ```
 
 Just copy the compiled CSS and JS files and the font files(created for icons) from the .zip and add them to your project.
@@ -101,7 +102,6 @@ Just copy the compiled CSS and JS files and the font files(created for icons) fr
 ## Bugs and feature requests
 
 Found any bug or issue? Post them on [GITHUB](https://github.com/digicorp/waladjs/issues).
-Have feedback, suggestions or Questions? Join [GITTER CHAT ROOM](https://gitter.im/WaladJS-Material-Design-Bootstrap-Framework/Support).
 
 
 ## Community
